@@ -18,7 +18,7 @@ Stratis: 8192
 Altis: 30720
 Zargabad: 8192
 Takistan: 12800
-proving grounds: 2048  ("ProvingGrounds_PMC")
+Proving Grounds: 2048	("ProvingGrounds_PMC")
 Shapur: 2048		("Shapur_BAF")
 Utes: 5120		("utes")
 Chernarus: 15360
@@ -30,6 +30,12 @@ Ft. Benning - US Army Infantry School: 7168 ("j198_ftb")
 Celle 2: 12288		("mbg_celle2")
 Bystrica: 7680		("Woodland_ACR")
 Fallujah: 10240		("fallujah")
+Rahmadi: : 512		("Intro")
+Takistan Mountains: 6400 ("Mountains_ACR")
+Porto: 5120		("Porto")
+Sahrani: 20480		("Sara")
+United Sahrani: 20480	("Sara_dbe1")
+Southern Sahrani: 10240	("SaraLite")
 */
 _island = worldname;
 switch (_island) do
@@ -50,6 +56,12 @@ switch (_island) do
 	case "mbg_celle2": { tao_foldmap_mapScale = 0.133;};
 	case "Woodland_ACR": { tao_foldmap_mapScale = 0.213;};
 	case "fallujah": { tao_foldmap_mapScale = 0.16;};
+	case "Intro": { tao_foldmap_mapScale = 0.32;};
+	case "Mountains_ACR": { tao_foldmap_mapScale = 0.256;};
+	case "Porto": { tao_foldmap_mapScale = 0.32;};
+	case "Sara": { tao_foldmap_mapScale = 0.08;};
+	case "Sara_dbe1": { tao_foldmap_mapScale = 0.08;};
+	case "SaraLite": { tao_foldmap_mapScale = 0.16;};
 	default { tao_foldmap_mapScale = 0.2;};
 };
 
